@@ -100,7 +100,7 @@ update_uboot_uenv_txt() {
 		sed -i -e "s:#disable_uboot_overlay_video:disable_uboot_overlay_video:" "/boot/uEnv.txt"
 		sed -i -e "s:uboot_overlay_pru:#uboot_overlay_pru:" "/boot/uEnv.txt"
 		echo '#Load BeagleLogic Cape' >> "/boot/uEnv.txt"
-		echo 'uboot_overlay_pru=/lib/firmware/beaglelogic-00A0.dtbo' >> "/boot/uEnv.txt"
+		echo 'dtb_overlay=/lib/firmware/beaglelogic-00A0.dtbo' >> "/boot/uEnv.txt"
 	fi
 }
 
