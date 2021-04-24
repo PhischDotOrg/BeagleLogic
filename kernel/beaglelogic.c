@@ -22,7 +22,6 @@
 
 #include <linux/platform_device.h>
 #include <linux/pruss.h>
-#include <linux/pruss_intc.h>
 #include <linux/remoteproc.h>
 #include <linux/miscdevice.h>
 
