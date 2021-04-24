@@ -46,6 +46,7 @@ release/
 *.o.cmd
 modules.order
 Module.symvers
+*.o.d
 
 # Libraries
 *.lib
