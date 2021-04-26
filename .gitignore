@@ -108,3 +108,7 @@ node_modules
 
 # Documentation folder
 _build
+
+# VisualStudio Code
+.vscode
+
